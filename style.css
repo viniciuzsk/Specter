@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #0a0a0b;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+li {
+  list-style: none;
+}
+.font-prada {
+  font-family: "Prata", serif;
+}
+
+.botao {
+  background-color: #fbe850;
+  padding: 16px 30px;
+  align-items: center;
+  color: #040401;
+  max-width: 100px;
+  text-align: center;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+  font-family: "Prata", serif;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+main {
+  margin-top: 105px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+}
+header nav {
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+li a {
+  padding: 10px 0px;
+  color: #848484;
+  text-decoration: none;
+}
+span {
+  display: inline-block; /* Permite a transformação */
+  transition: transform 0.3s;
+}
+
+h1:hover span {
+  transform: translateX(10px); /* Move a seta 10px para a direita */
+}
+
+.botao {
+  background-color: #fbe850;
+  padding: 16px 30px;
+  align-items: center;
+  color: #040401;
+  transition: 0.3s;
+}
+.botao:hover {
+  background-color: #c8b83f;
+}
+
+.parte-1 h1 {
+  font-size: 3.8rem;
+  font-family: "Prata", serif;
+  font-weight: lighter;
+  max-width: 20ch;
+}
+
+.font-1-m {
+  line-height: 1.6;
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: #848484;
+}
+
+.parte-1 p {
+  max-width: 60ch;
+  margin-top: 25px;
+  text-align: left;
+}
+.itens-container {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+  flex-wrap: wrap;
+}
+
+.container-grid {
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  padding-bottom: 70px;
+}
+.container-grid h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.container-item a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Prata", serif;
+  font-weight: lighter;
+  gap: 10px;
+}
+
+.container-bg {
+  background-color: #2e3038;
+}
+.footer-bg {
+  background-color: #2e3038;
+}
+
+.about .botao {
+  margin-top: 20px;
+}
+
+.social-container {
+  display: flex;
+  gap: 12px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    justify-content: center;
+  }
+  .container-item p {
+    max-width: 575px;
+  }
+  .container-item {
+    margin: 0 auto;
+  }
+  .font-1-m {
+    font-size: 1.1rem;
+  }
+}
