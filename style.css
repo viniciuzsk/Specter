@@ -49,6 +49,7 @@ main {
   margin-top: 105px;
 }
 header {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
@@ -176,4 +177,17 @@ footer {
   .font-1-m {
     font-size: 1.1rem;
   }
+  .parte-1 h1{
+    font-size: 2.5rem;
+  }
+  header{
+    justify-content: center;
+  }
+  header .botao{
+    padding: 8px 15px;
+
+  }
 }
+
+
+
